@@ -1,0 +1,33 @@
+.itemlist{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 25px;
+    padding: 10px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.addbtn{
+  margin-bottom: 50px;
+}
+.addbtn button{
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight:bold;
+  color:#fff;
+  background-color:#a52a2a;
+  border: 1px solid #a52a2a ;
+  cursor: pointer;
+  float:right;
+  margin-right: 35px;
+}
+
+.addbtn button:hover{
+  background-color: #cd3737;
+}
